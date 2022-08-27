@@ -2,3 +2,5 @@
 
 echo UID=$(id -u) > .env
 echo GID=$(id -g) >> .env
+echo WHITELISTED_PLAYERS=cdr,Misha >> .env
+echo OPS_PLAYERS=cdr,Misha >> .env
